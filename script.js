@@ -161,3 +161,7 @@ heart.remove();
 },300);
 
 }
+setTimeout(function(){
+  document.getElementById("final").classList.add("hide");
+  document.getElementById("sorry").classList.remove("hide");
+},10000);
